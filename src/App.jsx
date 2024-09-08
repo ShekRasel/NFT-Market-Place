@@ -1,14 +1,12 @@
 import React from 'react'
 import Navbar from './components/Navbar';
-import Text from './components/Text';
-import Test from './components/Test';
+import Home from './pages/Home';
 
 function App() {
   return (
     <div>
       <Navbar/>
-      <Text/>
-      <Test/>
+      <Home/>
     </div>
   )
 }

@@ -10,18 +10,12 @@ function Navbar() {
     const [showLinks, setShowLinks] = useState(false);
 
     const changeBgColor = ()=>{
-        if(window.scrollY >=50){
+        if(window.scrollY >50){
             setBgColor(true);
         }else{
             setBgColor(false);
-        };
+        }
     };
-
-    const searchInputShow = ()=>{
-        setSearchInput(true);
-        console.log('hellow')
-
-    }
 
     useEffect(()=>{
         window.addEventListener('scroll',changeBgColor);
@@ -32,7 +26,7 @@ function Navbar() {
 
 
   return (
-    <div className={`flex justify-between sm:flex sm:justify-between px-0  md:px-10 xl:px-24 2xl:px-80 bg-transparent top-0 fixed left-0   right-0 items-center py-1  auto  ${bgColor?'bg-blue-700 bg-opacity-25':'bg-transparent'}`}>
+    <div className={`flex justify-between sm:flex sm:justify-between px-0  md:px-10 xl:px-24 2xl:px-80 bg-transparent top-0 fixed left-0   right-0 items-center py-1  auto z-50 ${bgColor?'bg-indigo-700 bg-opacity-15 backdrop-blur-sm':'bg-transparent'}`}>
 
         <div className='flex items-center mt-5'>
             <img src="/src/assets/logos/nft.png" alt="logo" className='h-13 w-12'/>
