@@ -25,7 +25,7 @@ function PopularCollection() {
        <div className='grid lg:grid-cols-2 gap-8 '>
         {
             PopularCollections.map((PopularCollection, index)=>(
-                <div className=' p-8 bg-slate-800  rounded-lg object-cover'>
+                <div className=' p-8 bg-slate-800  rounded-lg object-cover' key={index}>
 
                     {
                         index === 0 ? (
