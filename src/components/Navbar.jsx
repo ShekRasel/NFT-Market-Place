@@ -2,12 +2,16 @@ import React, { useEffect, useState } from 'react'
 import { IoSearchOutline } from "react-icons/io5";
 import { RiWallet3Fill,RiArrowDownSFill } from "react-icons/ri";
 import { FaBars } from "react-icons/fa6";
+import { RxCross1 } from "react-icons/rx";
+
 
 
 function Navbar() {
     const [bgColor, setBgColor] = useState(false);
     const [showInput , setShowInput] = useState(false);
     const [showLinks, setShowLinks] = useState(false);
+    const [showLinks2, setShowLinks2] = useState(false);
+    const [showBarLinks, setShowBarLinks] = useState(true);
 
     const changeBgColor = ()=>{
         if(window.scrollY >50){
@@ -17,6 +21,8 @@ function Navbar() {
         }
     };
 
+    window.addEventListener('scroll',changeBgColor);
+
     useEffect(()=>{
         window.addEventListener('scroll',changeBgColor);
         return ()=>{
@@ -25,8 +31,16 @@ function Navbar() {
     },[]);
 
 
+    const changeBar = ()=>{
+        setShowBarLinks(!showBarLinks);
+    }
+
+    const showLinksSecondeTime = ()=>{
+        setShowLinks2(!showLinks2);
+    }
+
   return (
-    <div className={`flex justify-between sm:flex sm:justify-between px-0  md:px-10 xl:px-24 2xl:px-80 bg-transparent top-0 fixed left-0   right-0 items-center py-1  auto z-50 ${bgColor?'bg-indigo-700 bg-opacity-15 backdrop-blur-sm':'bg-transparent'}`}>
+    <div className={`flex justify-between sm:flex sm:justify-between px-0  md:px-10 xl:px-24 2xl:px-80 bg-transparent top-0 fixed left-0   right-0 items-center py-1  auto z-50 ${bgColor?'bg-green-700 bg-opacity-15 backdrop-blur-sm':'bg-transparent'}`}>
 
         <div className='flex items-center mt-5'>
             <img src="/src/assets/logos/nft.png" alt="logo" className='h-13 w-12'/>
@@ -90,7 +104,43 @@ function Navbar() {
                     Wallet Connect
                 </button>
 
-                <FaBars className='text-white text-3xl  lg:hidden mr-3'/>
+                <div className={`px-4 py-1 mr-1 rounded-md ${showBarLinks?'':' lg:hidden border-2 border-indigo-700'}`}>
+                    {showBarLinks ?  <FaBars className='text-white text-3xl  lg:hidden ' onClick={changeBar} />:
+                        <div className='lg:hidden'>
+                           <RxCross1 className='text-white text-3xl  lg:hidden ' onClick={changeBar} />
+                            <div>
+                                <div className='bg-slate-700  absolute mt-5 pr-4  pl-4 py-2 mr-6 right-0 rounded-md'>
+                                    <ul className='text-sm text-slate-300 font-semibold'>
+                                        <li className='py-3 hover:text-white'>Home</li>
+                                        <li className='py-3 hover:text-white'>Explore</li>
+                                        <li className='py-3 hover:text-white'>Community</li>
+                                        <li className='py-3 hover:text-white'>
+                                            <span className='flex  items-center gap-24 ' onClick={showLinksSecondeTime}>
+                                                Pages
+                                                <RiArrowDownSFill className='h-7 w-6'/> 
+                                            </span>
+                                            {showLinks2 && 
+                                                <div className='bg-slate-600 rounded-md pl-4 mt-2'>
+                                                    <ul className='text-sm text-slate-300'>
+                                                        <li className='py-3 hover:text-white'>Explore Items</li>
+                                                        <li className='py-3 hover:text-white'>Item Details</li>
+                                                        <li className='py-3 hover:text-white'>Create Item</li>
+                                                        <li className='py-3 hover:text-white'>Connect Item</li>
+                                                        <li className='py-3 hover:text-white'>Support</li>
+                                                        <li className='py-3 hover:text-white'>Sign In Page</li>
+                                                        <li className='py-3 hover:text-white'>Sign Up Page</li>
+                                                    </ul>
+                                                </div>}
+                                        </li>
+                                        <li className='py-3 hover:text-white'>Support</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+                
         </div>
     </div>
   )
