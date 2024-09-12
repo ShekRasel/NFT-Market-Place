@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import TodaysPic from '../components/homePageComponents/TodaysPic'
 import {RiArrowDownSFill } from "react-icons/ri";
+import Bar from '../components/Bar';
 
 
 function Explore() {
@@ -49,9 +50,7 @@ function Explore() {
 
   return (
     <div className=' pt-44 px-4 md:px-10 xl:px-24 2xl:px-80 text-white flex flex-col gap-24'>
-        <p className='p-5 border bg-slate-700 rounded-md font-bold text-lg'>
-            <span className='hover:text-indigo-700 cursor-pointer'>Home </span>/ Explore Items
-        </p>
+        <Bar exploreText = 'Explore items'/>
 
         <div className=' lg:flex justify-center lg:justify-between p-4 border rounded-md lg:gap-0 text-sm lg:text-base'>
             <div className='flex  lg:justify-evenly  font-semibold gap-3'>
