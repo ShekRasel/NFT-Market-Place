@@ -3,13 +3,12 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { ImYoutube } from "react-icons/im";
 import { FaTwitterSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import Bar from '../components/Bar';
 
 function Support() {
   return (
     <div className=' pt-44 px-4 md:px-10 xl:px-24 2xl:px-80 text-white flex flex-col gap-24'>
-        <p className='p-5 border bg-slate-700 rounded-md font-bold text-lg'>
-            <span className='hover:text-indigo-700 cursor-pointer'>Home </span>/ Connect Wallet
-        </p>
+        <Bar supportText='Get Support'/>
 
         <div className='lg:flex rounded-lg  border'>
             <div className='bg-indigo-600 w-full lg:w-1/3 flex flex-col pl-4 md:px-10 gap-36 py-16'>
