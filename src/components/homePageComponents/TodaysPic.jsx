@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FaHeart } from "react-icons/fa";
 import { TfiReload } from "react-icons/tfi";
 import Bar from './Bar';
 
 
-function TodaysPic() {
+function TodaysPic({isBlocked}) {
+
   const cards = [
     {view:'4.5k',bgImage:'/src/assets/images/image-01.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#551',photo:'/src/assets/images/image1.jpg',name:'@Devid_Milli...',designation:'creator',hits:'1.45 ETH', time:'05 : 15 : 05 : 45' },
     {view:'4.5k',bgImage:'/src/assets/images/image-01.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#551',photo:'/src/assets/images/image1.jpg',name:'@Devid_Milli...',designation:'creator',hits:'1.45 ETH', time:'05 : 15 : 05 : 45' },
@@ -17,9 +18,14 @@ function TodaysPic() {
 
 
 ];
+
+
+
 return (
   <div >
-    <Bar name2={`Today's Pic`} btn1='View All'/>
+
+    { !isBlocked && <Bar name2={`Today's Pic`} btn1='View All'/>}
+    
 
     <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-14'>
       {cards.map((card,index)=>(
