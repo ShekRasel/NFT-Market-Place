@@ -3,6 +3,7 @@ import { CiWallet } from "react-icons/ci";
 import { FcPicture } from "react-icons/fc";
 import { FaTag } from "react-icons/fa6";
 import { FcFeedback } from "react-icons/fc";
+import Bar from '../components/Bar';
 
 function Wallet() {
     const features = [
@@ -57,9 +58,7 @@ function Wallet() {
     ]
   return (
     <div className=' pt-44 px-4 md:px-10 xl:px-24 2xl:px-80 text-white flex flex-col gap-24'>
-        <p className='p-5 border bg-slate-700 rounded-md font-bold text-lg'>
-            <span className='hover:text-indigo-700 cursor-pointer'>Home </span>/ Connect Wallet
-        </p>
+        <Bar walletText='Wallet Connect'/>
         <div className=''>
             <h1 className=' text-center text-4xl lg:text-5xl font-bold py-8 '>Connet Your Wallet</h1>
             <p className='text-center text-xl pb-10 text-slate-300'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt qui excepturi consequatur sequi ad voluptatibus?</p>
