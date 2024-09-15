@@ -9,7 +9,7 @@ function ItemDetails() {
         <Bar exproleItemText = 'Explore Item'/>
         <div className=' lg:flex mt-20 gap-14  justify-between'>
             <div className=' bg-slate-600 rounded-lg lg:w-1/2 lg:h-2/3 justify-center flex  lg:p-24  top-0'>
-                <img src="/src/assets/images/item.png" alt="" className=''/>
+                <img src="images/item.png" alt="" className=''/>
             </div>
 
             <div className='lg:w-1/2 '>
