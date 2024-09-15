@@ -3,7 +3,7 @@ import { IoSearchOutline } from "react-icons/io5";
 import { RiWallet3Fill,RiArrowDownSFill } from "react-icons/ri";
 import { FaBars } from "react-icons/fa6";
 import { RxCross1 } from "react-icons/rx";
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 
 
@@ -54,14 +54,14 @@ function Navbar() {
         <div className='hidden lg:block'>
             <ul className=' gap-2 lg:gap-6 xl:gap-10 text-gray-300 font-bold  items-center flex'>
                 <li className='hover:text-white'>
-                    <Link to={'home'}>
+                    <NavLink to={'home'} className={({ isActive }) => (isActive ? 'text-blue-500' : 'text-gray-300')}>
                         Home
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className='hover:text-white'>
-                    <Link to={'explore-items'}>
+                    <NavLink to={'explore-items'}  className={({ isActive }) => (isActive ? 'text-blue-500' : 'text-gray-300')}>
                         Explore
-                    </Link>
+                    </NavLink>
                 </li>
                 <li className='hover:text-white'>
                    Community
@@ -78,33 +78,33 @@ function Navbar() {
                     {showLinks && 
                         <div className='bg-slate-700 pr-32 pl-4 pt-4 pb-4 absolute mt-5  rounded-md'>
                             <ul className='text-sm text-slate-300'>
-                               <Link to={'explore-items'}>
+                               <NavLink to={'explore-items'}  className={({ isActive }) => (isActive ? 'text-blue-500' : 'text-gray-300')}>
                                     <li className='py-3 hover:text-white'>Explore Items</li>
-                               </Link>
-                                <Link to={'items-details'}>
+                               </NavLink>
+                                <NavLink to={'items-details'}  className={({ isActive }) => (isActive ? 'text-blue-500' : 'text-gray-300')}>
                                     <li className='py-3 hover:text-white'>Item Details</li>
-                                </Link>
-                                <Link to={'item-create'}>
+                                </NavLink>
+                                <NavLink to={'item-create'}  className={({ isActive }) => (isActive ? 'text-blue-500' : 'text-gray-300')}>
                                     <li className='py-3 hover:text-white'>Create Item</li>
-                                </Link>
-                                <li className='py-3 hover:text-white'>Connect Item</li>
-                                <Link to={'support'}>
+                                </NavLink>
+                                
+                                <NavLink to={'support'}  className={({ isActive }) => (isActive ? 'text-blue-500' : 'text-gray-300')}>
                                     <li className='py-3 hover:text-white'>Support</li>
-                                </Link>
-                                <Link to={'signin'}>
+                                </NavLink>
+                                <NavLink to={'signin'}  className={({ isActive }) => (isActive ? 'text-blue-500' : 'text-gray-300')}>
                                     <li className='py-3 hover:text-white'>Sign In Page</li>
-                                </Link>
-                                <Link to={'signup'}>
+                                </NavLink>
+                                <NavLink to={'signup'}  className={({ isActive }) => (isActive ? 'text-blue-500' : 'text-gray-300')}>
                                     <li className='py-3 hover:text-white'>Sign Up Page</li>
-                                </Link>
+                                </NavLink>
                             </ul>
                         </div>}
                 </li>
-               <Link to={'support'}>
+               <NavLink to={'support'}  className={({ isActive }) => (isActive ? 'text-blue-500' : 'text-gray-300')}>
                 <li className='hover:text-white'>
                         Support
                     </li>
-               </Link>
+               </NavLink>
             </ul>
         </div>
 
@@ -120,12 +120,12 @@ function Navbar() {
                     </div>
                     }
             </div>
-                <Link to={'wallet'}>
+                <NavLink to={'wallet'}  className={({ isActive }) => (isActive ? 'text-blue-500' : 'text-gray-300')}>
                     <button className='hidden   md:flex items-center sm:gap-2 md:gap-3 py-3 px-2 sm:px-3 border-2 rounded-md font-bold sm:text-sm md:text-lg text-white hover:bg-indigo-700 hover:border-indigo-700'>
                         <RiWallet3Fill />
                         Wallet Connect
                     </button>
-                </Link>
+                </NavLink>
                 <div className={` lg:hidden px-4 py-1 mr-1 rounded-md ${showBarLinks?'':' lg:hidden border-2 border-indigo-700'}`}>
                     {showBarLinks ?  <FaBars className='text-white text-3xl  lg:hidden ' onClick={changeBar} />:
                         <div className='lg:hidden'>
