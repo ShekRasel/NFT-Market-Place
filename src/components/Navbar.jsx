@@ -108,8 +108,8 @@ function Navbar() {
             </ul>
         </div>
 
-        <div className='flex items-center gap-6 '>
-            <div className='py-4 relative'
+        <div className='flex items-center'>
+            <div className='py-4 relative  px-6'
                 onMouseEnter={()=>setShowInput(true)}
                 onMouseLeave={()=>setShowInput(false)}>
                 <IoSearchOutline className='w-8 h-6 text-white  hover:text-indigo-700 hidden md:flex'/>
