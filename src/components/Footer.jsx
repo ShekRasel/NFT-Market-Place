@@ -14,7 +14,7 @@ function Footer() {
             <div className='py-10 md:py-20  grid md:grid-cols-2 lg:grid-cols-4  text-white gap-10 md:gap-10 lg:gap-0'>
                 <div className=''>
                     <div className='flex items-center '>
-                        <img src="/src/assets/logos/nft.png" alt="logo" className='h-13 w-12'/>
+                        <img src="logos/nft.png" alt="logo" className='h-13 w-12'/>
                         <h1 className='text-white font-bold text-3xl'>NFT</h1>
                     </div>
 
