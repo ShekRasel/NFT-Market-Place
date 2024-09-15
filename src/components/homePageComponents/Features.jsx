@@ -15,19 +15,19 @@ function Features() {
         {
             logo : <FcFeedback className='h-12 w-12 '/>,
             color:'bg-green-400',
-            heading: 'Set Up Your Wallet',
+            heading: 'Make Your Collection',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
         },
         {
             logo : <FcPicture className='h-12 w-12 '/>,
             color:'bg-blue-400',
-            heading: 'Set Up Your Wallet',
+            heading: 'Add Your NFTs',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
         },
         {
             logo :<FaTag className='h-12 w-12 '/>,
             color:'bg-yellow-400',
-            heading: 'Set Up Your Wallet',
+            heading: 'List Them For Sale',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
         },
     ]
@@ -43,7 +43,7 @@ function Features() {
                         {feature.logo}
                     </div>
                     <h1 className='py-4 text-xl font-bold'>{feature.heading}</h1>
-                    <p className='text-slate-400'>{feature.description}</p>
+                    <p className='text-slate-400 font-semibold'>{feature.description}</p>
                 </div>
             ))}
         </div>
