@@ -7,14 +7,14 @@ import Bar from './Bar';
 function TodaysPic({isBlocked}) {
 
   const cards = [
-    {view:'4.5k',bgImage:'/src/assets/images/image-01.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#551',photo:'/src/assets/images/image1.jpg',name:'@Devid_Milli...',designation:'creator',hits:'1.45 ETH', time:'05 : 15 : 05 : 45' },
-    {view:'4.5k',bgImage:'/src/assets/images/image-01.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#551',photo:'/src/assets/images/image1.jpg',name:'@Devid_Milli...',designation:'creator',hits:'1.45 ETH', time:'05 : 15 : 05 : 45' },
-    {view:'4.5k',bgImage:'/src/assets/images/image-01.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#551',photo:'/src/assets/images/image1.jpg',name:'@Devid_Milli...',designation:'creator',hits:'1.45 ETH', time:'05 : 15 : 05 : 45' },
-    {view:'4.5k',bgImage:'/src/assets/images/image-01.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#551',photo:'/src/assets/images/image1.jpg',name:'@Devid_Milli...',designation:'creator',hits:'1.45 ETH', time:'05 : 15 : 05 : 45' },
-    {view:'4.5k',bgImage:'/src/assets/images/image-01.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#551',photo:'/src/assets/images/image1.jpg',name:'@Devid_Milli...',designation:'creator',hits:'1.45 ETH', time:'05 : 15 : 05 : 45' },
-    {view:'4.5k',bgImage:'/src/assets/images/image-01.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#551',photo:'/src/assets/images/image1.jpg',name:'@Devid_Milli...',designation:'creator',hits:'1.45 ETH', time:'05 : 15 : 05 : 45' },
-    {view:'4.5k',bgImage:'/src/assets/images/image-01.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#551',photo:'/src/assets/images/image1.jpg',name:'@Devid_Milli...',designation:'creator',hits:'1.45 ETH', time:'05 : 15 : 05 : 45' },
-    {view:'4.5k',bgImage:'/src/assets/images/image-01.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#551',photo:'/src/assets/images/image1.jpg',name:'@Devid_Milli...',designation:'creator',hits:'1.45 ETH', time:'05 : 15 : 05 : 45' }
+    {view:'4.5k',bgImage:'/src/assets/images/image-01.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#551',photo:'/src/assets/images/image1.jpg',name:'@Devid_Milli...',designation:'creator',hits:'12.45 ETH', time:'05 : 15 : 05 : 45' },
+    {view:'4.5k',bgImage:'/src/assets/images/image-11.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#771',photo:'/src/assets/images/image2.jpg',name:'@Stew_Rod...',designation:'creator',hits:'1.45 ETH', time:'05 : 15 : 05 : 45' },
+    {view:'4.5k',bgImage:'/src/assets/images/image-12.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#5521',photo:'/src/assets/images/image3.jpg',name:'@Mr_Khan...',designation:'creator',hits:'3.45 ETH', time:'05 : 15 : 05 : 45' },
+    {view:'4.5k',bgImage:'/src/assets/images/image-13.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#51',photo:'/src/assets/images/image4.jpg',name:'@Mariom_jwe...',designation:'creator',hits:'0.45 ETH', time:'05 : 15 : 05 : 45' },
+    {view:'4.5k',bgImage:'/src/assets/images/image-14.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#5351',photo:'/src/assets/images/image1.jpg',name:'@Pikky_Blind...',designation:'creator',hits:'4.45 ETH', time:'05 : 15 : 05 : 45' },
+    {view:'4.5k',bgImage:'/src/assets/images/image-15.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#051',photo:'/src/assets/images/image3.jpg',name:'@DJons_Son...',designation:'creator',hits:'4.45 ETH', time:'05 : 15 : 05 : 45' },
+    {view:'4.5k',bgImage:'/src/assets/images/image-16.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#591',photo:'/src/assets/images/image4.jpg',name:'@Elon_Milli...',designation:'creator',hits:'11.45 ETH', time:'05 : 15 : 05 : 45' },
+    {view:'4.5k',bgImage:'/src/assets/images/image-18.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#541',photo:'/src/assets/images/image2.jpg',name:'@Devid_quill...',designation:'creator',hits:'133.45 ETH', time:'05 : 15 : 05 : 45' }
 
 
 ];
@@ -55,8 +55,8 @@ return (
                   </div>
               </div>
 
-              <div className='flex  justify-between border-t pt-8 mt-2'>
-                <button className='bg-indigo-600 hover:bg-indigo-700 px-5 py-3 rounded-md'>
+              <div className='flex  justify-between border-t pt-4 mt-2 font-semibold'>
+                <button className='bg-indigo-600 hover:bg-indigo-700 px-2 py-1 2xl:px-4 2xl:py-2 rounded-md'>
                   Place Bid
                 </button>
                 <h1 className='flex items-center gap-2 hover:text-indigo-700'>
