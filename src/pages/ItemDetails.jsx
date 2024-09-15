@@ -23,14 +23,14 @@ function ItemDetails() {
 
                 <div className='flex flex-col md:flex-row gap-6 mt-10 '>
                     <div className='flex gap-2 md:border-r-4 pr-6'>
-                        <img src="/src/assets/images/image2.jpg"  className='w-12 rounded-md' alt="" />
+                        <img src="images/image2.jpg"  className='w-12 rounded-md' alt="" />
                         <div>
                             <h1 className='font-bold'>@Devid_Mill...</h1>
                             <h1 className='font-bold text-slate-400'>Owned by</h1>
                         </div>
                     </div>
                     <div className='flex gap-2'>
-                        <img src="/src/assets/images/image2.jpg" className='w-12 rounded-md' alt="" />
+                        <img src="images/image2.jpg" className='w-12 rounded-md' alt="" />
                         <div>
                             <h1 className='font-bold'>@Devid_Mill...</h1>
                             <h1 className='font-bold text-slate-400'>Owned by</h1>
