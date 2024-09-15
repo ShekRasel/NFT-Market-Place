@@ -43,7 +43,7 @@ function PopularCollection() {
                     ):(
                         <div className='flex  w-full gap-10 '>
                             <div>
-                                <img src="/src/assets/images/fire.svg" alt="" className='' />
+                                <img src="images/fire.svg" alt="" className='' />
                             </div>
                             <div className='grid grid-rows-2 gap-3'>
                                 <div className='grid grid-cols-2 gap-4'>
