@@ -4,7 +4,7 @@ import { TfiReload } from "react-icons/tfi";
 import Bar from './Bar';
 
 
-function TodaysPic({isBlocked}) {
+function TodaysPic({isBlocked,margin}) {
 
   const cards = [
     {view:'4.5k',bgImage:'/src/assets/images/image-01.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#551',photo:'/src/assets/images/image1.jpg',name:'@Devid_Milli...',designation:'creator',hits:'12.45 ETH', time:'05 : 15 : 05 : 45' },
@@ -27,7 +27,7 @@ return (
     { !isBlocked && <Bar name2={`Today's Pic`} btn1='View All'/>}
     
 
-    <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-14'>
+    <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-14  ${margin}`}>
       {cards.map((card,index)=>(
           <div className=' rounded-lg bg-slate-800 p-5' key={index}>
               

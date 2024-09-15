@@ -86,7 +86,7 @@ function Explore() {
             </div>
         </div>
 
-        <TodaysPic isBlocked ={isBlocked}/>
+        <TodaysPic isBlocked ={isBlocked} margin={'mt-0'}/>
     </div>
   )
 }
