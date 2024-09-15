@@ -8,50 +8,50 @@ import Bar from '../components/Bar';
 function Wallet() {
     const features = [
         {
-            logo : <CiWallet className='h-12 w-12  text-blue-700'/>,
+            logo : <img src="/src/assets/images/image-31.svg" alt="" />,
             color:'bg-slate-300',
             heading: 'Meta Mask',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
         },
         {
-            logo : <FcFeedback className='h-12 w-12 '/>,
+            logo : <img src="/src/assets/images/image-32.svg" alt="" />,
             color:'bg-green-400',
             heading: 'Bitski',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
         },
         {
-            logo : <FcPicture className='h-12 w-12 '/>,
+            logo : <img src="/src/assets/images/image-33.svg" alt="" />,
             color:'bg-blue-400',
             heading: 'Fortmatic',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
         },
         {
-            logo :<FaTag className='h-12 w-12 '/>,
+            logo : <img src="/src/assets/images/image-34.svg" alt="" />,
             color:'bg-yellow-400',
             heading: 'Wallet Connect',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
         },
         {
-            logo : <CiWallet className='h-12 w-12  text-blue-700'/>,
+            logo : <img src="/src/assets/images/image-35.svg" alt="" />,
             color:'bg-slate-300',
             heading: 'Coinbase Wallet',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
         },
         {
-            logo : <FcFeedback className='h-12 w-12 '/>,
+            logo : <img src="/src/assets/images/image-36.svg" alt="" />,
             color:'bg-green-400',
             heading: 'Authereum',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
         },
         {
-            logo : <FcPicture className='h-12 w-12 '/>,
+            logo : <img src="/src/assets/images/image-37.svg" alt="" />,
             color:'bg-blue-400',
             heading: 'Kaikas',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
         },
         {
-            logo :<FaTag className='h-12 w-12 '/>,
-            color:'bg-yellow-400',
+            logo : <img src="/src/assets/images/image-38.svg" alt="" />,
+            color:'bg-indigo-600',
             heading: 'Torus',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
         },
