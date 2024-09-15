@@ -6,13 +6,13 @@ function PopularCollection() {
 
     const PopularCollections = [{
         header:'Creative 3d illustration',
-        photo : '/src/assets/images/image1.jpg',
+        photo : 'images/image1.jpg',
         name : '@Lathium_Lui...',
         react : '1.6K'
     },
     {
         header:'Creative 3d illustration',
-        photo : '/src/assets/images/image3.jpg',
+        photo : 'images/image3.jpg',
         name : '@Lathium_Lui...',
         react : '1.6K'
     }];
@@ -31,12 +31,12 @@ function PopularCollection() {
                         index === 0 ? (
                         <div className='flex gap-10'>
                             <div>
-                                <img src="/src/assets/images/camerea.svg" className='w-96'/>
+                                <img src="images/camerea.svg" className='w-96'/>
                             </div>
 
                             <div className='grid grid-row-2'>
-                                <img src="/src/assets/images/calender.svg" alt="" className='w-full'/>
-                                <img src="/src/assets/images/hammer.svg" alt="" className='w-full'/>
+                                <img src="images/calender.svg" alt="" className='w-full'/>
+                                <img src="images/hammer.svg" alt="" className='w-full'/>
                             </div>
                         </div>
 
@@ -47,11 +47,11 @@ function PopularCollection() {
                             </div>
                             <div className='grid grid-rows-2 gap-3'>
                                 <div className='grid grid-cols-2 gap-4'>
-                                    <img src="/src/assets/images/blade.svg" alt="" className='w-full'/>
-                                    <img src="/src/assets/images/tap.svg" alt="" className='w-full'/>
+                                    <img src="images/blade.svg" alt="" className='w-full'/>
+                                    <img src="images/tap.svg" alt="" className='w-full'/>
                                 </div>
                                 <div>
-                                    <img src="/src/assets/images/watch.svg" alt="" className='w-96' />
+                                    <img src="images/watch.svg" alt="" className='w-96' />
                                 </div>
                             </div>
                         </div>

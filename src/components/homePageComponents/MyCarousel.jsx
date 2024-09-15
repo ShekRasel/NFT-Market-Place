@@ -10,27 +10,27 @@ function MyCarousel() {
     {
       name: '@David Miller',
       view: '9.75 ETH',
-      photo: '/src/assets/images/image1.jpg',
+      photo: 'images/image1.jpg',
     },
     {
       name: '@Elon Mask',
       view: '7.5 ETH',
-      photo: '/src/assets/images/image2.jpg',
+      photo: 'images/image2.jpg',
     },
     {
       name: '@Hiliya_Farah',
       view: '9.75 ETH',
-      photo: '/src/assets/images/image3.jpg',
+      photo: 'images/image3.jpg',
     },
     {
       name: '@Willium_Dev',
       view: '9.75 ETH',
-      photo: '/src/assets/images/image4.jpg',
+      photo: 'images/image4.jpg',
     },
     {
       name: '@David Miller',
       view: '9.75 ETH',
-      photo: '/src/assets/images/image4.jpg',
+      photo: 'images/image4.jpg',
     },
   ];
 

@@ -46,7 +46,7 @@ function Navbar() {
 
         <Link to={'home'}>
             <div className='flex items-center mt-5'>
-                <img src="/src/assets/logos/nft.png" alt="logo" className='h-13 w-12'/>
+                <img src="logos/nft.png" alt="logo" className='h-13 w-12'/>
                 <h1 className='text-white font-bold text-3xl'>NFT</h1>
             </div>
         </Link>
