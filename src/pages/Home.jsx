@@ -31,7 +31,7 @@ function Home() {
                 </div>
             </div>
             <div className='flex justify-center'>
-                <img src="/src/assets/images/hero-image.svg" alt=""  className= 'w-9/12 lg:w-11/12'/>
+                <img src="images/hero-image.svg" alt=""  className= 'w-9/12 lg:w-11/12'/>
             </div>
         </div>
         <MyCarousel/>
