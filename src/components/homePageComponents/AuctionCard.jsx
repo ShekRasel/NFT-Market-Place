@@ -5,10 +5,10 @@ import Bar from './Bar';
 
 function AuctionCard() {
     const cards = [
-        {view:'4.5k',bgImage:'images/image-01.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#541',photo:'/src/assets/images/image2.jpg',name:'@Devid_Milli...',designation:'creator',hits:'4.45 ETH', time:'05 : 11 : 4 : 445' },
-        {view:'4.5k',bgImage:'images/image-21.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#52',photo:'/src/assets/images/image4.jpg',name:'@Devid_Milli...',designation:'creator',hits:'9.55 ETH', time:'05 : 111 : 05 : 59' },
-        {view:'4.5k',bgImage:'images/image-22.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#551',photo:'/src/assets/images/image1.jpg',name:'@Devid_Milli...',designation:'creator',hits:'2.5 ETH', time:'05 : 15 : 02 : 25' },
-        {view:'4.5k',bgImage:'images/image-23.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#1251',photo:'/src/assets/images/image3.jpg',name:'@Devid_Milli...',designation:'creator',hits:'2.454 ETH', time:'05 : 15 : 05 : 45' }
+        {view:'4.5k',bgImage:'images/image-01.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#541',photo:'images/image2.jpg',name:'@Devid_Milli...',designation:'creator',hits:'4.45 ETH', time:'05 : 11 : 4 : 445' },
+        {view:'4.5k',bgImage:'images/image-21.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#52',photo:'images/image4.jpg',name:'@Devid_Milli...',designation:'creator',hits:'9.55 ETH', time:'05 : 111 : 05 : 59' },
+        {view:'4.5k',bgImage:'images/image-22.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#551',photo:'images/image1.jpg',name:'@Devid_Milli...',designation:'creator',hits:'2.5 ETH', time:'05 : 15 : 02 : 25' },
+        {view:'4.5k',bgImage:'images/image-23.svg',bgImagecolor:'bg-indigo-600',text:'22-Bit Digital#1251',photo:'images/image3.jpg',name:'@Devid_Milli...',designation:'creator',hits:'2.454 ETH', time:'05 : 15 : 05 : 45' }
 
     ];
   return (
@@ -28,7 +28,7 @@ function AuctionCard() {
                 </div>
                 <h1 className='text-xl pt-3 font-semibold'>{card.text}</h1>
                 <div className='grid grid-cols-2 text-sm py-4'>
-                    <div className='flex gap-2 '>
+                    <div className='flex gap-2'>
                         
                             <img src={card.photo} alt="" className=' w-1/4 rounded-md'/>
                         

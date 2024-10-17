@@ -49,12 +49,12 @@ function SignInSignUp({doSignUp,doSignIn,signin,signup,singUpSubtext,singUpSubte
             </div>
 
             <div className='text-white border-m mt-16 border-t '>
-                <p className='text-center py-8 font-bold text-slate-400'>{singInSubtext3}{singUpSubtext3}
+                <div className='text-center py-8 font-bold text-slate-400'>{singInSubtext3}{singUpSubtext3}
                 <Link>
                 <div className='hover:text-indigo-600 text-white'>
                         <h1>{doSignUp}{doSignIn}</h1>
                 </div>
-                </Link> </p>
+                </Link> </div>
             </div>
         </div>
     </div>

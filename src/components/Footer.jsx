@@ -31,7 +31,7 @@ function Footer() {
                 </div>
 
                 <div className=''>
-                    <h1 className='text-3xl font-bold  pb-5 cursor-pointer hover:text-white'>Company</h1>
+                    <h1 className='text-2xl font-bold  pb-5 cursor-pointer hover:text-white'>Company</h1>
                     <h2 className='font-bold text-slate-300 p-2 cursor-pointer hover:text-white'>About Company</h2>
                     <h2 className='font-bold text-slate-300 p-2 cursor-pointer hover:text-white'> Company services</h2>
                     <h2 className='font-bold text-slate-300 p-2 cursor-pointer hover:text-white'>Job opportunities</h2>
@@ -39,14 +39,14 @@ function Footer() {
                 </div>
 
                 <div className=''>
-                    <h1 className='text-3xl font-bold  pb-5 cursor-pointer hover:text-white'>Customer</h1>
+                    <h1 className='text-2xl font-bold  pb-5 cursor-pointer hover:text-white'>Customer</h1>
                     <h2 className='font-bold text-slate-300 p-2 cursor-pointer hover:text-white'>Client support</h2>
                     <h2 className='font-bold text-slate-300 p-2 cursor-pointer hover:text-white'> Latest news</h2>
                     <h2 className='font-bold text-slate-300 p-2 cursor-pointer hover:text-white'>Company Details</h2>
                     <h2 className='font-bold text-slate-300 p-2 cursor-pointer hover:text-white'>Who we are</h2>
                 </div>
                 <div className=' px-2 '>
-                    <h1 className='text-3xl font-bold  pb-5 cursor-pointer hover:text-white'>Subscribe Now</h1>
+                    <h1 className='text-2xl font-bold  pb-5 cursor-pointer hover:text-white'>Subscribe Now</h1>
                     <p className='font-bold text-slate-300 p-2 cursor-pointer hover:text-white'>Enter your email address for receiving valuable newsletters.</p>
                     <div className='flex border-indigo-600 items-center bg-white hover:border-indigo-600 hover:border-2 rounded-md p-1'>
                         <input type="text" name="" id="" placeholder='Enter your Email Address ' className='w-full outline-none pl-2 rounded-md text-black'/>
@@ -59,7 +59,7 @@ function Footer() {
             </div>
             <div className='border-t py-5 text-center text-white'>
                 <h1 className=' md:text-xl font-bold'>
-                    © Copyright 2025 - NFT, All rights reserved.
+                    © Copyright 2024 - NFT, All rights reserved.
                 </h1>
             </div>
         </div>

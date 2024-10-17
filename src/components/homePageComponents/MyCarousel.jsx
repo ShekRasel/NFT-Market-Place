@@ -62,7 +62,7 @@ function MyCarousel() {
   return (
     <div className='h-auto mt-16'>
       <div className='flex justify-between border-r-0 border-l-0 border-t-0 border pb-6'>
-        <h1 className='text-3xl font-semibold'>Top Artists</h1>
+        <h1 className='text-xl md:text-3xl font-semibold'>Top Artists</h1>
         <div className='flex gap-4'>
           <span
             className='p-3 px-4 rounded-md items-center hover:bg-indigo-600 bg-slate-500 cursor-pointer'

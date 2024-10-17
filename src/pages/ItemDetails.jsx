@@ -30,7 +30,7 @@ function ItemDetails() {
                         </div>
                     </div>
                     <div className='flex gap-2'>
-                        <img src="images/image2.jpg" className='w-12 rounded-md' alt="" />
+                        <img src="images/image1.jpg" className='w-12 rounded-md' alt="" />
                         <div>
                             <h1 className='font-bold'>@Devid_Mill...</h1>
                             <h1 className='font-bold text-slate-400'>Owned by</h1>
@@ -67,7 +67,7 @@ function ItemDetails() {
                         <div className='flex justify-between'>
                             <div>
                                 <div className='flex gap-2  pr-6'>
-                                <img src="/src/assets/images/image2.jpg"  className='w-10 rounded-md' alt="" />
+                                <img src="images/image2.jpg"  className='w-10 rounded-md' alt="" />
                                 <div>
                                     <h1 className='font-bold'>@Devid_Mill...</h1>
                                     <h1 className='font-bold text-slate-400'>Owned by</h1>
@@ -82,7 +82,7 @@ function ItemDetails() {
                         <div className='flex justify-between pt-5'>
                             <div>
                                 <div className='flex gap-2  pr-6'>
-                                <img src="/src/assets/images/image2.jpg"  className='w-10 rounded-md' alt="" />
+                                <img src="images/image1.jpg"  className='w-10 rounded-md' alt="" />
                                 <div>
                                     <h1 className='font-bold'>@Devid_Mill...</h1>
                                     <h1 className='font-bold text-slate-400'>Owned by</h1>
@@ -97,7 +97,7 @@ function ItemDetails() {
                         <div className='flex pt-5 justify-between'>
                             <div>
                                 <div className='flex gap-2  pr-6'>
-                                <img src="/src/assets/images/image2.jpg"  className='w-10 rounded-md' alt="" />
+                                <img src="images/image3.jpg"  className='w-10 rounded-md' alt="" />
                                 <div>
                                     <h1 className='font-bold'>@Devid_Mill...</h1>
                                     <h1 className='font-bold text-slate-400'>Owned by</h1>
